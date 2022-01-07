@@ -1,0 +1,136 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body{
+    color: dimgrey;
+}
+
+.content .head .nav{
+    width: auto;
+    height: 80px;
+    background:  #47464a;
+    line-height: 80px;
+    text-align: center;
+    font-size: 20px;
+    color: #999;
+}
+
+.content .head .nav a{
+    padding: 60px;
+}
+
+.content .head .nav a:hover{
+    color:  #ffffff;
+}
+
+.content .head .nav a.active{
+    color:#ef4238;
+}
+
+.content .container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.content .container .choose-area {
+    width: 1180px;
+    margin: 100px auto 20px auto ;
+}
+
+.content .container .choose-area .choose-item{
+    margin: 20px 40px;
+    border-bottom: 1px dotted #e5e5e5 ;
+}
+
+.content .container .choose-area .choose-item .left{
+    width: 60px;
+    float: left;
+    line-height: 2em;
+    margin: 10px 0px ;
+    text-align: right;
+}
+
+.content .container .choose-area .choose-item .right{
+    float: left;
+    width: 1000px;
+}
+
+.content .container .choose-area {
+    border: 1px solid #e5e5e5;
+    font-size: 20px;
+}
+
+.content .container .choose-area .choose-item .right li{
+    float: left;
+    line-height: 2em;
+    margin: 10px 30px;
+    color: #1f1f1f;
+}
+
+.content .container .choose-area .choose-item:last-child{
+    border: none;
+}
+
+.content .container .choose-area .choose-item .right li:hover{
+    color: #ef4238;
+}
+
+.content .container .choose-area .choose-item .right li.active{
+    background: #ef4238;
+    padding: 0 20px;
+    border-radius: 20px;
+    color: #FFF;
+}
+
+.content .container .movie{
+    width: 1180px;
+    margin: 40px auto ;
+}
+
+.content .container .movie .movie-item{
+    float: left;
+    width: 180px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.content .container .movie .movie-item div.poster a img{
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.content .container .movie .movie-item:nth-child(6n){
+    margin-right: 0px;
+}
+
+.content .container .movie .movie-item div p a{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color:rgb(51,51,51);
+    text-align: center;
+}
+
+.content .container .movie .movie-item div p{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    color: orange;
+}
+
+.content .container .movie .movie-item div p::first-letter{
+    font-size: 24px;
+}
+
+/* 固定定位 */
+/* .content .head .nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+} */

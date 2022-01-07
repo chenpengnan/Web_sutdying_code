@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            background: lightblue;
+        }
+
+        .container{
+            background: #008c8c;
+            width: 200px;
+            height: 200px;
+            position: relative;
+            margin:50px;
+        }
+
+        .item{
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: absolute;
+            z-index: -2;
+            left: -30px;
+            top: -30px;
+        }
+
+        .normal{
+            width: 200px;
+            height: 200px;
+            background: chocolate;
+            margin-top: -200px;
+        }
+
+        .folat{
+            width: 200px;
+            height: 200px;
+            background: brown;
+            margin-left: 100px;
+            margin-top: -80px;
+        }
+    </style>
+</head>
+<body>
+    <span style="background:lightgoldenrodyellow;">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos eaque, ex corrupti impedit quibusdam sunt debitis dolores possimus? Obcaecati commodi, eligendi doloremque nemo adipisci sit et vel reprehenderit ullam placeat!
+    </span>
+    <div class="container">
+        <div class="item"></div>
+        <!-- 当处于同一种情况时，后面的覆盖前面的 -->
+        <!-- <div class="item" style="background: chocolate;left: -35px;top: -35px;"></div> -->
+    </div>
+    <div class="normal"></div>
+    <div class="folat"></div>
+
+</body>
+</html>

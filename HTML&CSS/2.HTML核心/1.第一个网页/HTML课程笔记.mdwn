@@ -1,0 +1,8 @@
+# 课程：HTML&CSS
+
+课程概述
+
+HTML + CSS + Javascript =网页
+HTML：Hyper Text Markup Language 超文本标记语言；定义网页中有什么
+CSS：Cascading Style Sheets 层叠样式表；定义网页中的东西长什么样子
+

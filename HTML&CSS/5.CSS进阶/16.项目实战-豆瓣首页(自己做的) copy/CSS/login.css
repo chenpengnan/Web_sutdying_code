@@ -1,0 +1,178 @@
+@import "//at.alicdn.com/t/font_2222669_gx9yehfyqm.css";
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:13px;
+    color: #9B9BA0;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.container{
+    padding: 20px 10px 10px 10px;
+    position: relative;
+}
+
+
+.container .password-login .tab{
+    cursor: pointer;
+}
+
+.container .password-login .tab .tab-password{
+    float: right;
+    width: 140px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border-bottom: 1px solid rgb(73, 73, 73);
+    color: #333;
+    font-weight: 700;
+}
+
+.container .password-login .tab .tab-SMS{
+    float: left;
+    width: 140px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+.container .password-login .input-box .form-item{
+    margin: 10px 0;
+    width: 280px;
+}
+
+.container .password-login .input-box .form-item .txt{
+    height: 24px;
+    line-height: 24px;
+}
+
+.container .password-login .input-box .form-item .txt a{
+    color: rgb(65, 172, 82);
+}
+
+.container .password-login .input-box .phone{
+    margin: 10px 0;
+    border: 1px solid rgb(230, 230, 230);
+    width: 280px;
+    height:34px ;
+    border-radius: 4px;
+    line-height: 34px;
+    background: #fff;
+}
+
+.container .password-login .input-box .phone .phone-code{
+    display: inline-block;
+    width: 52px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #333;
+    cursor: pointer;
+}
+
+.container .password-login .input-box .phone .phone-number{
+    display: inline-block;
+    height: 34px;
+    width: 220px;
+}
+
+.container .password-login .input-box .phone .phone-number input{
+    height: 26px;
+    padding-left: 6px;
+    border-left: 1px solid rgb(230, 230, 230);
+    width: 210px;
+}
+
+.container .password-login .input-box .security-code{
+    margin: 10px 0;
+    border: 1px solid rgb(230, 230, 230);
+    width: 280px;
+    height:34px ;
+    border-radius: 4px;
+    line-height: 34px;
+    position: relative;
+    background: #fff;
+}
+
+.container .password-login .input-box .security-code a{
+    color: rgb(65, 172, 82);
+    position: absolute;
+    right: 7px;
+    /* display: inline-block; */
+}
+
+.container .password-login .input-box .security-code input{
+    margin: 0 6px;
+    width: 196px;
+}
+
+.container .password-login .input-box .btn{
+    margin: 10px 0;
+    background: #41ac52;
+    border-radius: 4px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.container .password-login .input-box .btn button{
+    color: #fff;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    width: 280px;
+    height: 34px;
+}
+
+.container .password-login .input-box .help-link{
+    margin: 10px 0;
+    color: rgb(73, 73, 73);
+}
+
+.container .password-login .input-box .help-link .cant{
+    float: right;
+    margin: 5px 0;
+    color: rgb(65, 172, 82);
+}
+
+.container .password-login .footer{
+    margin: 10px 0;
+    border-top: 1px solid rgb(230, 230, 230);
+    height: 30px;
+    line-height: 30px;
+}
+
+.container .password-login .footer i{
+    margin: 0 10px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.container .password-login .footer .icon-weibo{
+    color:rgb(254, 86, 53);
+}
+
+.container .password-login .footer .icon-weixin{
+    color: #1aad19;
+}
+
+.container .password-login .qrconde{
+    position: absolute;
+    top:8px;
+    right: 8px;
+    background: url(../img/icon-qrcode.png) left top/100%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
