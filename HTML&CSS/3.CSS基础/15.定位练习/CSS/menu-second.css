@@ -1,0 +1,81 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.header{
+    background: #e3e4e5;
+    color:#999 ;
+    height: 40px;
+    line-height: 40px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.header .navtop>li{
+    float: left;
+    margin: 0 20px;
+    width: 150px;
+    text-align: center;
+    height: 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.header .navtop>li:hover{
+    background: #fff;
+    border: 2px solid #b9b9b9;
+    border-bottom: none;
+    line-height: 36px;
+}
+
+.header .navtop>li .submenu{
+    text-align: left;
+    line-height: 1.5;
+    width: 300px;
+    /* 不生成盒子 */
+    display: none;
+    border: 2px solid #b9b9b9;
+    position: absolute;
+    right: -2px;
+    background: #fff;
+    padding: 16px;
+}
+
+.header .navtop>li:hover .submenu{
+    display: block;
+}
+
+.header .navtop>li:hover::after{
+    content: "";
+    position: absolute;
+    right: -2px;
+    width: 100%;
+    height: 5px;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+}
+
+.header .navtop>li .submenu li{
+    float: left;
+    background: rgb(255, 255, 255);
+    width: 150px;
+    height: 40px;
+}
+
+.header .navtop>li .submenu div{
+    float: left;
+    background: rgb(255, 255, 255);
+    width: 300px;
+    height: 40px;
+    color: black;
+}
+
+.header .navtop>li:first-child .submenu{
+    left: -2px;   
+}

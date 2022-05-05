@@ -1,0 +1,42 @@
+.main img{
+    width: 100%;
+}
+
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .4);
+}
+
+.modal .container{
+    position: fixed;
+    width: 404px;
+    height: 512px;
+    background: #fff;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 20px;
+    line-height: 2;
+    border-radius: 8px;
+}
+
+.modal .container .close{
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    background: coral;
+    color: cornsilk;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}

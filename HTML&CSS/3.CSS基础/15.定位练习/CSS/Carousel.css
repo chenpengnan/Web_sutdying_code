@@ -1,0 +1,100 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.banner{
+    width: 520px;
+    height: 304px;
+    margin: 1em auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner .imgs{
+    width: 1560px;
+    height: 304px;
+}
+
+.banner .imgs img{
+    width: 520px;
+    height: 304px;
+    object-fit: cover;
+}
+
+.banner .imgs a{
+    float: left;
+}
+
+.banner .left, 
+.banner .right{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    border-radius: 50%;
+    font-size: 3em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+    color:  rgba(73, 83, 189, 1);
+    background: rgba(255, 255, 255, .4);
+    cursor: pointer;
+}
+
+.banner .left:hover, 
+.banner .right:hover{
+    background: rgba(73, 83, 189, .8);
+    color: #ffffff;
+}
+
+.banner .left{
+    left: 20px;  
+}
+
+.banner .right{
+    right: 20px;  
+}
+
+.banner .modal{
+    width: 520px;
+    height: 50px;
+    background: rgba(0, 0, 0, .25);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 50px;
+    padding: 0px 0px 0px 20px;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    
+}
+
+.banner .modal .title{
+    float: left;
+    font-weight: 700;
+}
+
+.banner .modal .dots{
+    float:right;
+    margin-right: 20px;
+}
+
+.banner .modal .dots li{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.banner .modal .dots li:hover{
+    background-color: rgba(73, 83, 189);
+}
