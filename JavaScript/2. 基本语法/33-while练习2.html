@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+    while(true){
+        var score = +prompt("请输入小明的期末成绩");
+        if(score >= 0 && score <100){
+            break;
+        }
+        alert("请输入0-100整数");
+        
+    }
+
+    if (isNaN(score)){
+                alert("请输入数字")
+            }else{
+                if(score == 100){
+                    alert("奖励一台BMW");
+                }else if  (score >= 80 && score <= 99){
+                    alert("奖励一台iPhone 15s")
+                }else if  (score >= 60 && score <= 79){
+                    alert("奖励一本参考书")
+                }else if (score >= 0 && score < 60) {
+                    alert("给你一嘴巴子")
+                }else{
+                    alert("请输入0-100整数")
+                }
+            }           
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
