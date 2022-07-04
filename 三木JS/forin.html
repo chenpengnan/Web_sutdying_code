@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        // for in , for of 遍历 迭代
+
+        // for in 只能跟对象配合使用
+
+        // var person = {
+        //     name:"小明",
+        //     age:12,
+        //     gender:"male",
+        //     height:150
+        // }
+
+        // for (var key in person){
+        //     if(key === "gender"){
+        //         break;
+        //     }
+        //     console.log(key,person[key])
+        // }
+
+
+        var obj ={
+            name:" ",
+            age:0,
+            gender:" ",
+            height:" "
+        }
+
+        // 用for in 给对象的每个属性设置不同的值
+
+        for(var key in obj){
+            if(key === "name"){
+                obj[key] = "nomadland"
+            }else if (key === "age"){
+                obj[key] = 18
+            }else if (key === "gender"){
+                obj[key] = "male"
+            }else if (key === "height"){
+                obj[key] = "180"
+            }
+            
+        }
+
+        console.log(obj)
+
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
